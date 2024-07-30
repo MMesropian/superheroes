@@ -54,7 +54,7 @@ fun HeroesScreen(hero: Hero) {
         ) {
             Column(
                 modifier = Modifier
-                    .background(color = Color.Red)
+                    //.background(color = Color.Red)
                     .weight(1f)
             ) {
                 Text(
@@ -69,14 +69,14 @@ fun HeroesScreen(hero: Hero) {
             Spacer(
                 modifier = Modifier
                     .width(16.dp)
-                    .background(color = Color.Green)
+                    //.background(color = Color.Green)
             )
             Box(
                 modifier = Modifier
                     .clip(Shapes.small)
 
                     .size(72.dp)
-                    .background(color = Color.Blue)
+                    //.background(color = Color.Blue)
             ) {
                 Image(
                     /*modifier = Modifier
